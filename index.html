@@ -1,63 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Introduction</title>
 
 <style>
- img {
-  position: absolute;
-  top: 80px;
-  left: 650px;
-  width: 300px;
-  height: auto;
+
+body{
+    margin:0;
+    padding:40px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffd6e7, #fff5fa);
+    color:#333;
+}
+
+/* Main Card */
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    position:relative;
+}
+
+/* Image Styling */
+.profile-img{
+    position:absolute;
+    top:30px;
+    right:30px;
+    width:250px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h1{
+    text-align:center;
+    color:#ff4f88;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+/* Sections */
+.section{
+    margin-bottom:25px;
+    line-height:1.8;
+}
+
+/* Labels */
+b{
+    color:#ff4f88;
+}
+
+/* Decorative line */
+.divider{
+    height:3px;
+    background:linear-gradient(to right, #ff7aa2, #ffc2d4);
+    border-radius:10px;
+    margin:20px 0;
+}
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+    .profile-img{
+        position:static;
+        display:block;
+        margin:0 auto 20px auto;
+        width:200px;
+    }
+
+    h1{
+        font-size:32px;
+    }
 }
 
 </style>
 </head>
-<body>
-<img src="IMG_8977.jpeg">
 
-<pre>
- <b>Name:</b> 
-  -Meredy M. Carlos
- <b>Nickname:</b> 
-  -Carlos (yung hindi ko last name ♡) 
- <b>Last school attended: </b>
-  -Before Highschool, Project 3 elementary school
-<b> Adress:</b>
-  -12 Ipil st. Brgy Duyan-Duyan
-<b>Contact Number: </b>
-  -9174637246 
-<b> Parents/Guardian and contact number: </b>
-   <i>>Mother: </i>
-    -Marygrace Carlos
-   Contact:
-     -
-   <i>Father: </i>
-     -John Andrew Carlos
-   Contact:
-     - 
- <b> Your Fam: </b>
-  -I have one sister, a mother, a father, and my cats.
-</pre>
-<pre>
- <b>Your Fave:</b>
-  - Characters: Leviathan, Yes man, Benny, Denji, Power
-  -Games: Fallout New Vegas, Uma musume, Date Everything
-  -Shows: Watamote, Ouran highschool hostclub, Scott 
-          Pilgrim (both the anime and the movie) 
-<b> Your Friends:</b>
-  -My main friend group consists of 4 people, our core values is
-   to be ourselves, support each other as long as no one is getting
-   hurt, and call each other out for behaviour that we might see as
-   problematic in nature
-<b> Your Expectations about the subject:</b>
-  -I'll gain more freedome to do more things
-<b> Why did you choose TechPro ICT?: </b>
-  - To expand my knowledge of the digital tools that we use in
-    our day to day lives, and possibly think of a creative way to 
-    use already existing technology to create innovative solutions 
-    to problems that we may have. </pre>
- 
+<body>
+
+<div class="container">
+
+<h1>Introduction</h1>
+
+<img src="IMG_8977.jpeg" class="profile-img">
+
+<div class="section">
+<b>Name:</b> Meredy M. Carlos <br>
+
+<b>Nickname:</b> Carlos (yung hindi ko last name ♡) <br>
+
+<b>Last School Attended:</b> Before Highschool, Project 3 Elementary School <br>
+
+<b>Address:</b> 12 Ipil St. Brgy Duyan-Duyan <br>
+
+<b>Contact Number:</b> 9174637246 <br>
+
+<b>Parents/Guardian:</b><br>
+&nbsp;&nbsp;• Mother: Marygrace Carlos <br>
+&nbsp;&nbsp;• Father: John Andrew Carlos <br>
+
+<b>Your Fam:</b> I have one sister, a mother, a father, and my cats.
+</div>
+
+<div class="divider"></div>
+
+<div class="section">
+
+<b>Your Faves:</b><br>
+• Characters: Leviathan, Yes Man, Benny, Denji, Power <br>
+• Games: Fallout New Vegas, Uma Musume, Date Everything <br>
+• Shows: Watamote, Ouran Highschool Hostclub, Scott Pilgrim
+(both the anime and the movie)
+
+</div>
+
+<div class="divider"></div>
+
+<div class="section">
+
+<b>Your Friends:</b><br>
+My main friend group consists of 4 people. Our core values are
+to be ourselves, support each other as long as no one is getting
+hurt, and call each other out for behavior that we might see as
+problematic in nature.
+
+</div>
+
+<div class="divider"></div>
+
+<div class="section">
+
+<b>Your Expectations About the Subject:</b><br>
+I'll gain more freedom to do more things.
+
+</div>
+
+<div class="divider"></div>
+
+<div class="section">
+
+<b>Why did you choose TechPro ICT?</b><br>
+To expand my knowledge of the digital tools that we use in our
+day-to-day lives, and possibly think of creative ways to use
+already existing technology to create innovative solutions to
+problems that we may have.
+
+</div>
+
+</div>
+
 </body>
 </html>
